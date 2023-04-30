@@ -7,13 +7,13 @@ This is a project of a simple calculator developed with the objective of improvi
  
  The calculator has basic operations such as addition, subtraction, multiplication, and division, as well as features to clear the screen and delete one digit at a time.
 
-## Stack used:
+## Stack utilizada
 
 **Front-end:** HTML5, CSS3, JavaSCript
 
-## Color Documentation:
+## Documentação de cores
 
-| Colors               | Hexadecimal                                                |
+| Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
 | Main Color    | ![#67e6dc](https://via.placeholder.com/10/67e6dc?text=+) #67e6dc |
 | Background Linear Gradient A       | ![#2d353f](https://via.placeholder.com/10/2d353f?text=+) #2d353f |
@@ -27,7 +27,7 @@ This is a project of a simple calculator developed with the objective of improvi
 
 link gradient generator: https://mycolor.space/gradient?ori=to+top&hex=%232D353F&hex2=%236F93B5&sub=1
 
-## Screenshots:
+## Screenshots
 
-![App Screenshot](https://live.staticflickr.com/65535/52859395240_41ba9ec4bc_b.jpg)
+![App Screenshot](https://live.staticflickr.com/65535/52859585438_c0efba0b3e_z.jpg)
 
