@@ -13,7 +13,13 @@
 
 body {
     height: 100vh;
-    background-color: #0c2339;
+    background-image: linear-gradient(to top, #2d353f, #3d4b5a, #4e6277, #5e7a96, #6f93b5);
+}
+
+:root{
+    --main-color: #67e6dc;
+  
+
 }
 
 
@@ -168,4 +174,16 @@ input {
     color: inherit;
     border: 0;
     background-color: transparent;
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 360px){
+    html {
+        font-size: 60%;
+    }
 }
