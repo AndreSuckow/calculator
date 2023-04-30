@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'calcDigit';
+    src: url('./fonts/calculator.ttf');
+}
+
+
+body {
+    height: 100vh;
+    background-color: #0c2339;
+}
+
+.calc-widget {
+    position: relative;
+    width: 30rem;
+    padding: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.result-container {
+    position: relative;
+    font-family: 'calcDigit';
+    width: calc(100% - 1.75rem);
+    left: 0.875rem;
+    text-align: right;
+    background-color: #2d353f;
+    color: #67e6dc;
+    margin-bottom: 32px;
+    border-radius: .5rem;
+    letter-spacing: .125rem;
+    text-shadow: 0 0 .75rem #7efff5;
+}
+
+.result-container:after {
+    content: '';
+    position: absolute;
+    height: calc(100% + 1.75rem);
+    width: calc(100% + 1.75rem);
+    top: -0.875rem;
+    left: -0.875rem;
+    background-color: #526174;
+    border-radius: 1.125rem;
+    box-shadow: 0 .5rem 0 .25rem #2d353f;
+    z-index: -1;
+}
+
+.result-container div {
+    padding: .25rem .5rem;
+    position: relative;
+}
+
+.result-container div:before {
+    content: '8888888888888';
+    position: absolute;
+    top: .25rem;
+    left: .25rem;
+    opacity: 0.1;
+}
+
+.result-container div.value {
+    height: 2.5rem;
+    font-size: 2rem;
+}
+
+.result-container div.result {
+    height: 4.375rem;
+    font-size: 3.75rem;
+}
+
+.result-container div.value:before {
+    content: '88888888888888888888888';
+    left: .375rem;
+}
+.number-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    line-height: 0;
+}
+
+label {
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: calc(25% - 16px);
+    top: 0;
+    padding: 1rem 1.25rem;
+    margin: 1.125rem .5rem;
+    color: #ffffff;
+    background: linear-gradient(#2d353f, #526174);
+    border-radius: .75rem;
+    text-align: center;
+    transition: all linear 0.16s;
+}
+
+label:active {
+    top: 12px;
+}
+
+
+label:active:after {
+    height: 5.0625rem;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    height: 5.75rem;
+    width: calc(100% + 3px);
+    top: -4px;
+    left: -3px;
+    background: linear-gradient(90deg, #526174 , #2d353f 15%, #2d353f 85%, #526174);
+    border: .125rem solid #242b33;
+    border-radius: inherit;
+    z-index: -1;
+    transition: all linear 0.16s;
+}
+
+input {
+    cursor: inherit;
+    font-size: inherit;
+    color: inherit;
+    border: 0;
+    background-color: transparent;
+}
