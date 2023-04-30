@@ -11,9 +11,9 @@ This is a project of a simple calculator developed with the objective of improvi
 
 **Front-end:** HTML5, CSS3, JavaSCript
 
-## Documentação de cores
+## Color Documentation
 
-| Cor               | Hexadecimal                                                |
+| Colors               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
 | Main Color    | ![#67e6dc](https://via.placeholder.com/10/67e6dc?text=+) #67e6dc |
 | Background Linear Gradient A       | ![#2d353f](https://via.placeholder.com/10/2d353f?text=+) #2d353f |
