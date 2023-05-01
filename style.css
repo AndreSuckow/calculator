@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'calcDigit';
-    src: url('./fonts/calculator.ttf');
+    src: url('./assets/fonts/calculator.ttf');
 }
 
 
@@ -145,6 +145,10 @@ label .clr {
 label:active .clr {
     top: 12px;
     color: #6bce78;
+}
+
+.font {
+    font-family: 'calcDigit';
 }
 
 
